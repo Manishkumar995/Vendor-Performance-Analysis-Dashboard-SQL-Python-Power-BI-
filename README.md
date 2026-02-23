@@ -1,7 +1,7 @@
 # Supplier Performance & Profitablity Analysis-Dashboard-SQL-Power-BI-Python (Pandas, NumPY)
  **SQL, Python, Excel and Power BI**
 
-**Overview**
+**Overview=**
 
 This project analyzes supplier sales, pricing, and inventory data to understand what drives profitability and where operational issues may exist. The goal was to identify opportunities to improve purchasing decisions, pricing strategy, and inventory management in a retail or wholesale setting.
 

@@ -5,7 +5,7 @@
 
 This project analyzes supplier sales, pricing, and inventory data to understand what drives profitability and where operational issues may exist. The goal was to identify opportunities to improve purchasing decisions, pricing strategy, and inventory management in a retail or wholesale setting.
 
-**Business Objective**
+**Business Objective-**
 
 Companies can lose profit due to inefficient pricing, slow-moving inventory, or overdependence on a few suppliers. This analysis was conducted to:
 

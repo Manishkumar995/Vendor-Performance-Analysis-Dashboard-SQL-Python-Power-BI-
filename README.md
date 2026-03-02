@@ -122,10 +122,15 @@ Interactive dashboards were developed to enable stakeholder exploration of suppl
 **Project Structure**
 Supplier-Performance-and-Profitability-Analysis/
 │
-├── ingestion_db.ipynb        # Data ingestion and database setup
-├── EDA.ipynb                 # Exploratory analysis
-├── Analysis.ipynb            # Supplier performance evaluation
-├── PowerBI_Dashboard.pbix    # Interactive visualization
+├── ingestion_db.ipynb        **# Data ingestion and database setup**
+
+├── EDA.ipynb                 **# Exploratory analysis**
+
+├── Analysis.ipynb            **# Supplier performance evaluation**
+
+
+├── PowerBI_Dashboard.pbix    **# Interactive visualization**
+
 └── README.md
 **Skills Demonstrated**
 

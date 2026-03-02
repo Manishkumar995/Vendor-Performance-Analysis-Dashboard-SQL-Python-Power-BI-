@@ -66,7 +66,10 @@ Interactive dashboards were developed to enable stakeholder exploration of suppl
 - Inventory exposure linked to vendors
 
 - Concentration of profit across supplier base
+<img width="907" height="555" alt="image" src="https://github.com/user-attachments/assets/32f2256a-df12-4571-aaab-131046460e4a" />
 
+
+  
 **Key Findings**
 
 - Profit contribution is highly concentrated among a small subset of suppliers

@@ -1,139 +1,173 @@
-# Supplier Performance & Profitablity Analysis-Dashboard-SQL-Power-BI-Python (Pandas, NumPY)
- **SQL, Python, Excel and Power BI**
+**Supplier Performance and Profitability Analysis**
+**Summary**
 
-**Overview=**
+Supplier selection decisions influence profitability, working capital, service levels, and operational risk. However, organizations often evaluate vendors primarily on purchase price, overlooking their full financial and operational impact.
 
-This project analyzes supplier sales, pricing, and inventory data to understand what drives profitability and where operational issues may exist. The goal was to identify opportunities to improve purchasing decisions, pricing strategy, and inventory management in a retail or wholesale setting.
+This project builds an integrated analytical framework to evaluate suppliers across the end-to-end procurement lifecycle. By combining sales, purchase, and inventory data, the analysis identifies which suppliers drive sustainable profit, which erode margins, and where procurement strategy can be optimized.
 
-**Business Objective-**
+The results demonstrate how supplier performance analytics can support cost reduction, margin improvement, and more resilient supply chains.
 
-Companies can lose profit due to inefficient pricing, slow-moving inventory, or overdependence on a few suppliers. This analysis was conducted to:
+**Problem Statement-**
 
-- **Identify products that may need pricing or promotional changes**
+Traditional supplier evaluation methods fail to capture the total economic impact of vendors. High-revenue suppliers may deliver low margins, while low-cost suppliers can increase holding costs, stock imbalances, or operational inefficiencies.
 
-- **Determine which suppliers contribute most to purchases and revenue**
+- This analysis addresses key strategic questions:
 
-- **Evaluate the cost benefits of bulk purchasing**
+- Which suppliers generate the highest profit contribution?
 
-- **Assess inventory turnover and unsold stock**
+- Do revenue leaders also deliver strong margins?
 
-- **Compare profitability across different supplier groups**
+- Which vendors create disproportionate inventory or cost burdens?
 
-These objectives reflect the key business questions outlined in the project report. 
+**-How concentrated is supplier risk?**
 
-**Supplier Performance Report**
+Where should procurement focus renegotiation or diversification efforts?
 
-**Data Description**
+**Analytical Framework**
 
-The dataset contains transaction-level information related to suppliers, products, purchases, sales, pricing, and costs. Key fields include:
+An end-to-end pipeline was implemented to transform raw operational data into decision-ready insights.
 
-- Purchase and selling prices
+**Data Integration**
 
-- Sales quantities and revenue
+Multiple datasets were consolidated to create a unified supplier performance view:
 
-- Profit and profit margins
+- Sales transactions
 
-- Freight costs
+- Procurement records
 
-- Inventory levels
+- Inventory positions
 
-- Supplier and product identifiers
+- Supplier master data
 
-- Data cleaning steps included removing records with zero sales and loss-making transactions to focus on meaningful performance patterns. 
+**Processing and Analysis**
 
+- Data cleaning and normalization
 
-**Analysis Performed**
-**- Exploratory Data Analysis**
+- Cross-dataset joins to link suppliers to financial outcomes
 
-Initial analysis revealed pricing outliers, negative profit cases, and large variation in freight costs, suggesting inconsistencies in procurement and logistics. Some products showed zero sales despite being purchased, indicating potential obsolete or slow-moving stock. 
+- Aggregation of supplier-level KPIs
 
+- Margin and contribution analysis
 
+- Inventory impact assessment
 
-**Supplier Contribution-**
+**Visualization**
 
-A small group of suppliers accounts for a large share of purchases. The top ten suppliers contribute approximately 65.7% of total purchases, indicating a high level of dependency and potential supply risk. 
+Interactive dashboards were developed to enable stakeholder exploration of supplier performance metrics.
 
+**Key Metrics Evaluated**
 
-Bulk Purchasing Impact
+- Revenue contribution by supplier
 
-Larger purchase quantities were associated with significantly lower unit costs. Bulk orders showed around 72% lower unit prices compared to small orders, demonstrating clear economies of scale. 
+- Profit and margin performance
 
+- Purchase volume versus sales outcomes
 
-**Inventory Performance**
+- Inventory exposure linked to vendors
 
-The analysis identified about $2.71 million tied up in slow-moving or unsold inventory. Low turnover items increase storage costs and reduce available working capital. 
-
-
-
-**Pricing and Product Performance**
-
-A set of 198 products was identified with low sales but relatively high profit margins. These products may benefit from targeted marketing or pricing adjustments to increase demand without sacrificing profitability. 
-
-
-Profitability Differences Across Suppliers
-
-Lower-volume suppliers tended to operate with higher margins, while high-volume suppliers generated more revenue with lower margins. Statistical testing confirmed that these differences were significant, suggesting different operating strategies across supplier groups. 
-
+- Concentration of profit across supplier base
 
 **Key Findings**
 
-- Heavy reliance on a small number of suppliers increases operational risk
+- Profit contribution is highly concentrated among a small subset of suppliers
 
-- Bulk purchasing significantly reduces unit costs
+- Several high-revenue vendors produce comparatively weak margins
 
-- Slow-moving inventory ties up capital and increases holding costs
+- Certain suppliers are associated with disproportionate inventory levels, tying up working capital
 
-- Pricing strategy strongly influences profitability
+- Supplier performance varies significantly across profitability, indicating opportunities for portfolio optimization
 
-- Some high-margin products suffer from low demand
+**Strategic Implications**
 
-**Recommendations:**
+**The analysis highlights actionable opportunities for procurement and operations teams:**
 
-**Based on the analysis, the following actions could improve performance:**
+- Prioritize high-margin suppliers for long-term partnerships
 
--Diversify the supplier base to reduce dependency
+- Renegotiate terms with low-margin but high-volume vendors
 
--Review pricing for low-volume, high-margin products
+- Diversify supplier base to reduce concentration risk
 
--Adjust purchasing quantities for slow-moving items
+- Align procurement decisions with profitability rather than price alone
 
--Use bulk purchasing strategically where demand is stable
+- Optimize inventory policies based on supplier characteristics
 
--Improve marketing or distribution for underperforming products
+**Technology=**
 
-**Tools Used**
+**Data Analysis**
 
-Power BI for dashboard development and visualization
+- Python (Pandas, NumPy)
 
-- Python (Pandas, NumPy) for data analysis
+- Jupyter Notebook
 
-- SQL for data extraction and preparation
+- Data Storage and Querying
 
-- Excel for data cleaning and preprocessing
+- SQL
 
-**- Repository Contents**
+- Visualization
 
-- Power BI dashboard file (.pbix)
+- Power BI
 
-- Analysis report
+- Matplotlib / Seaborn
 
-- Supporting data and scripts
+**Deliverables**
 
+- Integrated supplier performance dataset
+
+- Analytical notebooks documenting methodology
+
+- Interactive dashboard for stakeholder use
+
+- Decision-oriented insights and recommendations
+
+**Project Structure**
+Supplier-Performance-and-Profitability-Analysis/
+│
+├── ingestion_db.ipynb        # Data ingestion and database setup
+├── EDA.ipynb                 # Exploratory analysis
+├── Analysis.ipynb            # Supplier performance evaluation
+├── PowerBI_Dashboard.pbix    # Interactive visualization
+└── README.md
 **Skills Demonstrated**
 
-- Exploratory data analysis
+**Technical Capabilities**
 
-- Business performance analysis
+- Data integration across multiple business functions
 
-- Pricing and profitability evaluation
+- Advanced exploratory data analysis
 
-- Inventory analysis
+- KPI development and performance measurement
 
-- Data visualization
+- SQL-based data handling
 
--Insight generation for decision support
+- Visualization and dashboard design
+
+- Business and Analytical Skills
+
+- Profitability analysis
+
+- Supplier portfolio evaluation
+
+- Procurement analytics
+
+- Working capital considerations
+
+- Decision support modeling
+
+- Potential Business Impact
+
+**Organizations applying similar analysis can:**
+
+- Improve sourcing strategy and vendor selection
+
+- Increase margins through supplier optimization
+
+- Reduce working capital tied in inventory
+
+- Strengthen negotiating position with vendors
+
+- Enhance supply chain resilience
 
 **Author**
 
 **Manish Kumar**
-
+Business/Data Analyst specializing in operational and analytics.
